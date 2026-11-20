@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this tool, please cite the code DOI and the background report."
+title: "llm-api-contract: LLM API 契约检查器（v0.1.0）"
+type: software
+version: "0.1.0"
+date-released: "2026-11-20"
+license: "MIT"
+authors:
+  - family-names: Yin
+    given-names: Kang
+    affiliation: "Independent Researcher"
+    orcid: "https://orcid.org/0009-0001-2723-1293"
+doi: "10.5281/zenodo.24399656"
+url: "https://zenodo.org/records/24399656"
+repository-code: "https://gitee.com/yin-kang83/llm-api-contract"
+references:
+  - type: article
+    title: "Streaming Incremental Verification for LLM Outputs: Early-Stop Feasibility and API Compatibility Observations (v0.1)"
+    doi: "10.5281/zenodo.24269158"
+    authors:
+      - family-names: Yin
+        given-names: Kang
