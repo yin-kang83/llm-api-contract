@@ -2,6 +2,7 @@
 
 > 离线 API 契约检查器（v0.1）：把 LLM API 的终止事件、失败原因、usage、首 token 定义做成可测试的 contract。
 > 研究线：**API 协议语义与评测测量效度**。
+> 代码 DOI: https://doi.org/10.5281/zenodo.24399656
 
 ## 这是什么
 
