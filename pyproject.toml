@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-api-contract"
+version = "0.1.0"
+description = "Offline contract checks for LLM API stream termination, usage, and first-token semantics"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+llm-api-contract = "llm_api_contract.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests", "contract_tests"]
